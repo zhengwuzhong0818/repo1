@@ -33,6 +33,7 @@ public class TestMybatis {
         for (Account account : list) {
             System.out.println(account);
         }
+        System.out.println(sqlSession);
         sqlSession.close();
         in.close();
     }
