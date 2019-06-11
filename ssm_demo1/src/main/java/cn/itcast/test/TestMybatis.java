@@ -34,6 +34,7 @@ public class TestMybatis {
             System.out.println(account);
         }
         System.out.println(sqlSession);
+        int i=0;
         sqlSession.close();
         in.close();
     }
