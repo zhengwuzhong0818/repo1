@@ -18,7 +18,7 @@ public class TestSpring {
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
         //获取对象
         AccountService accountService = (AccountService)ac.getBean("accountService");
-        //调用方法1
+        //调用方法122
         accountService.findAll();
     }
 }
